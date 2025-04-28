@@ -40,7 +40,16 @@ header {
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-
+:root {
+    --primary: #ff6b6b;
+    --text: #333;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
 /* Mobile Responsiveness */
 @media (max-width: 600px) {
     .meals-container {

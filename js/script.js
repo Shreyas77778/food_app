@@ -26,5 +26,15 @@ function displayMeals(meals) {
     `).join('');
 }
 
+async function fetchMeals() {
+    try {
+      const response = await fetch('https://www.themealdb.com/api/json/v1/1/search.php?s=chicken');
+      if (!response.ok) throw new Error("API failed");
+      const data = await response.json();
+      console.log(data.meals);
+    } catch (error) {
+      console.error("Fetch error:", error);
+    }
+  }
 // Initialize
 fetchMeals();

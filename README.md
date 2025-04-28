@@ -1,12 +1,10 @@
-# 🍔 Food App  
-Browse and order meals from [TheMealDB](https://www.themealdb.com/).
+# Food App 🍔
+A responsive food ordering app.
 
-## Features  
-- Search meals  
-- Add to cart  
-- Responsive design  
+## Features
+- Browse meals
+- Add to cart
 
-## How to Run  
-1. Clone the repo:  
-   ```bash
-   git clone https://github.com/Shreyas77778/food_app.git
+## How to Run
+1. Clone this repo
+2. Open `index.html` in a browser
