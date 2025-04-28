@@ -49,6 +49,25 @@ header {
     margin: 0;
     padding: 0;
   }
+  /* Add to existing CSS */
+#auth-links {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  
+  #user-email {
+    margin-right: 10px;
+    color: white;
+  }
+  
+  #logout-btn {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
   
 /* Mobile Responsiveness */
 @media (max-width: 600px) {
