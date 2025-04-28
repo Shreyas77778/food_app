@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food App 🍔</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Food App</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="search-bar">
+            <input type="text" id="search-input" placeholder="Search meals...">
+            <button id="search-btn">Search</button>
+        </section>
+
+        <section id="meals" class="meals-container">
+            <!-- Meals load here dynamically -->
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+/* CSS Variables */
+:root {
+    --primary: #ff6b6b;
+    --secondary: #333;
+    --text: #f8f9fa;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+}
+
+/* Header */
+header {
+    background: var(--primary);
+    color: var(--text);
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Meals Grid */
+.meals-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.meal-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .meals-container {
+        grid-template-columns: 1fr;
+    }
+}
